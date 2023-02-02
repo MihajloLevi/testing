@@ -1,0 +1,17 @@
+body {
+  background: blue;
+}
+@keyframes heading {
+  0% {
+    transform: translateX(250px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(250px);
+  }
+}
+h1 {
+  animation: heading 7s linear infinite;
+}
